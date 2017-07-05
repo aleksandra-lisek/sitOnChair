@@ -1,0 +1,77 @@
+/*FOOTER*/
+
+.page-footer {
+    height: 85;
+
+}
+
+.page-footer-nav {
+    display: inline-block;
+}
+.page-nav-icons {
+
+}
+.icon {
+
+    float: right;
+    height: 35px;
+    width: 35px;
+
+}
+
+.flickr {
+
+    background-image: url("../images/flickr.png");
+}
+.vimeo {
+    background-image: url("../images/vimeo.png");
+}
+
+.pinterest {
+    background-image: url("../images/pinterest.png");
+}
+
+.twitter {
+    background-image: url("../images/twitter.png");
+}
+
+.copyrights{
+    color: #9d9d9d;
+    float: left;
+
+}
+
+.page-footer{
+    padding-bottom: 50px;
+}
+.page-logo-footer {
+
+    text-decoration: none;
+    text-transform: uppercase;
+     color: #9d9d9d;
+}
+.page-footer-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.copyrights{
+  align-items: flex-start;
+}
+
+.page-nav-icons{
+  display: flex;
+  flex: row;
+  padding-right: 100px;
+}
+.footer-logo-div{
+  display: flex;
+  align-items: center;
+}
+
+.page-logo-footer span {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #9d9d9d;
+}

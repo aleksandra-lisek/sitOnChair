@@ -1,0 +1,67 @@
+/*inputs*/
+.main-inputs-bg {
+    height: 330px;
+
+}
+.main-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    margin-bottom: 69px;
+}
+
+.main-inputs-box {
+    width: 330px;
+    height: 240px;;
+}
+
+.box-one {
+    background-image: url("../images/box1_img.jpg");
+    position: relative;
+    background-size: cover;
+
+}
+
+
+.box-two {
+    background-image: url("../images/box2_img.jpg");
+    position: relative;
+    background-size: cover;
+}
+.box-three {
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+
+}
+
+.box3 {
+    margin: 20px 30px auto;
+}
+.box3 p {
+    margin-top: 20px;
+}
+.input-bar {
+    position: absolute;
+    bottom: 10px;
+    background-color: rgba(128, 128, 128, 0.4);
+    text-align: left;
+    height: 60px;
+    width: 100%;
+}
+.input-bar span{
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 5px;
+    border-bottom: 5px solid #00C3A0;
+    color: #000;
+}
+
+.input-title {
+    color: #000;
+    font-weight: 600;
+    border-bottom: 5px solid #00C3A0;
+}

@@ -1,0 +1,96 @@
+/*main-slider*/
+
+.main-slider-bg {
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(240,240,240,1) 35%, rgba(192,193,194,1) 63%, rgba(192,193,194,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(35%, rgba(240,240,240,1)), color-stop(63%, rgba(192,193,194,1)), color-stop(100%, rgba(192,193,194,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(240,240,240,1) 35%, rgba(192,193,194,1) 63%, rgba(192,193,194,1) 100%);
+
+
+}
+
+.main-slider {
+    position: relative;
+    height: 500px;
+}
+.main-slider-slides-cnt{
+    position: relative;
+    height: 100%;
+}
+
+.main-slider-prev {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font-size: 50px;
+
+}
+
+.main-slider-next {
+    position: absolute;
+    top: 50%;
+    right: -68px;
+    font-size: 50px;
+
+}
+.arrow-font {
+    text-decoration: none;
+    color: #00C3A0;
+}
+
+.slide{
+    height: 500px;
+
+
+}
+
+.slide-left {
+    display: inline-block;
+    float: left;
+}
+.slide-photo {
+    image:  url("../images/black_chair.png");
+    width: 50%;
+    display: inline-block;
+    float: left;
+    padding-top: 100px;
+}
+.slide-text{
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    padding-top: 100px;
+
+}
+.slide-title-word {
+    color: #00C3A0;
+    font-weight: 700;
+
+}
+
+.slide-title {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+
+.slide-btn{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-weight: 700;
+
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+
+    border-radius: 10px;
+    background-color: #00C3A0;
+    margin-top: 30px;
+}
