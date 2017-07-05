@@ -39,7 +39,7 @@
 
   position: absolute;
   top: -24px;
-  right: 45%;
+  right: 45.5%;
   width: 24px;
   height: 24px;
   background: #d3d3d3;
@@ -66,7 +66,6 @@
   .center{
       display: flex;
       flex-flow: column;
-    //   padding-top: 40px;
       align-items: center;
       justify-content: center;
       span{
@@ -75,7 +74,7 @@
           color: #00d2ae;
           font-weight: 500;
           text-transform: uppercase;
-        //   width: 126px;
+
       }
   }
 
@@ -84,32 +83,36 @@
       height: 131px;
       border: 1px solid #d3d3d3;
       border-radius: 100%;
-    //   display: flex;
-    //   align-items: center;
-    //   justify-content: center;
       margin-bottom: 34px;
   }
   .circle-text{
       display: flex;
       align-items: center;
       justify-content: center;
-    //   flex-flow: row wrap;
+      flex-flow: column;
       height: 100%;
       span{
           color: #c6c6c6;
           font-size: 39px;
           font-weight: 700;
-                  width:100%;
+          padding: 0;
+
 
 
           .upper{
-              vertical-align: super
+              vertical-align: super;
           }
+
           b{
               font-size: 13px;
               font-weight: 700;
-
           }
+      }
+      .down{
+          font-size: 13px;
+          font-weight: 700;
+          color: #c6c6c6;
+
       }
   }
 .box-list{
@@ -122,7 +125,7 @@
         text-align: center;
 
         li{
-    // border: 1px solid #d3d3d3;
+
     height: 25%;
     background-color: #e4e4e4;
     font-size: 23px;
