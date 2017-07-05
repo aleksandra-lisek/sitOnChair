@@ -8,6 +8,17 @@
 
 
 }
+.slider-list ul{
+    list-style: none;
+}
+
+.slider-list li{
+    display: none;
+}
+
+.slider-list .visible{
+    display: inline-block;
+}
 
 .main-slider {
     position: relative;
